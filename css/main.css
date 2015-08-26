@@ -1,0 +1,101 @@
+body {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: "Segoe UI";
+}
+a {
+	color: #FF5151;
+	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+a:hover {
+	color:#D7D700;
+}
+div.banner {
+	background-color: #FFFFFF;
+	width: 95%;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+}
+div.bannercontent {
+	background-color: #4D4D4D;
+	width: 500px;
+	padding: 15px;
+	top: 0px;
+}
+div.body {
+	background-color: #FFFFFF;
+	padding: 35px;
+	width: 90%;
+	position: absolute;
+	top: 100px;
+}
+div.bodycontent {
+	background-color: #E7E7E7;
+	width: 75%;
+	padding: 15px;
+	text-align: left;
+}
+div.animprogress {
+	background-color: #F1F1F1;
+	width: 75%;
+	padding: 15px;
+	align-items: center;
+}
+div.animbar {
+	position: absolute;
+	background-color: #009933;
+	height: 10px;
+	left: 15%;
+}
+div.animbarbg {
+	position: absolute;
+	background-color: #939393;
+	height: 10px;
+	width: 100px;
+	left: 15%;
+}
+div.left {
+	text-align: left;
+}
+div.video-link-container {
+	background-color: #939393;
+	position: relative;
+	padding: 10px;
+}
+div.video-link {
+	position:absolute;
+	left:400px;
+	top:65px;
+	font-size:45px
+}
+span.clickbutton {
+	background-color: #007A29;
+	color: #FFFFFF;
+	padding: 5px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+span.clickbutton:hover{
+	background-color: #66AF7F;
+	color: #F2F200;
+}
+div.programtab {
+	background-color: #4C4C4C;
+	color: #FAFAFA;
+	display: none;
+	padding: 15px;
+}
