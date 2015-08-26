@@ -15,6 +15,12 @@ a {
 a:hover {
 	color:#D7D700;
 }
+p {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 0;
+	margin-right: 0;
+}
 div.banner {
 	background-color: #FFFFFF;
 	width: 95%;

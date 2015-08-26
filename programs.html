@@ -4,6 +4,7 @@
 <title>LegoStax Productions - Programs</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
+var open = false;
 function load(){
 	$(document).ready(function(){
 		document.getElementById("program1").style.cursor = "pointer";
@@ -18,9 +19,25 @@ function load(){
 		document.getElementById("download5").style.cursor = "pointer";
 		document.getElementById("program6").style.cursor = "pointer";
 		document.getElementById("download6").style.cursor = "pointer";
+		document.getElementById("expand").style.cursor = "pointer";
 	});
 }
 $(document).ready(function(){
+	$("#expand").click(function(){
+		$("#tab1").slideToggle("fast");
+		$("#tab2").slideToggle("fast");
+		$("#tab3").slideToggle("fast");
+		$("#tab4").slideToggle("fast");
+		$("#tab5").slideToggle("fast");
+		$("#tab6").slideToggle("fast");
+		if(open === false){
+			open = true;
+			$("#expand").text("Collapse All");
+		}else{
+			open = false;
+			$("#expand").text("Expand All");
+		}
+	});
 	$("#program1").click(function(){
 		$("#tab1").slideToggle("fast");
 	});
@@ -67,6 +84,7 @@ $(document).ready(function(){
 <!-- BODY -->
 <div class="body">
 <div class="bodycontent">
+<p align="right"><span class="clickbutton" id="expand">Expand All</span></p>
 <b>Method to download programs:</b>
 <br>1. Download a program below.
 <br>2. If a program has a .FILE extension, then complete the following steps:
