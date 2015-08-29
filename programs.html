@@ -19,6 +19,8 @@ function load(){
 		document.getElementById("download5").style.cursor = "pointer";
 		document.getElementById("program6").style.cursor = "pointer";
 		document.getElementById("download6").style.cursor = "pointer";
+		document.getElementById("program7").style.cursor = "pointer";
+		document.getElementById("download7").style.cursor = "pointer";
 		document.getElementById("expand").style.cursor = "pointer";
 	});
 }
@@ -30,6 +32,7 @@ $(document).ready(function(){
 		$("#tab4").slideToggle("fast");
 		$("#tab5").slideToggle("fast");
 		$("#tab6").slideToggle("fast");
+		$("#tab7").slideToggle("fast");
 		if(open === false){
 			open = true;
 			$("#expand").text("Collapse All");
@@ -74,6 +77,12 @@ $(document).ready(function(){
 	$("#download6").click(function(){
 		parent.location.href="https://www.dropbox.com/s/2tjkxs037bylp8q/Stuffs.zip?dl=1";
 	});
+	$("#program7").click(function(){
+		$("#tab7").slideToggle("fast");
+	});
+	$("#download7").click(function(){
+		parent.location.href="https://www.dropbox.com/s/1lhez9l14ivk9hr/EncryptMe.jar?dl=1";
+	});
 });
 </script>
 </head>
@@ -90,6 +99,16 @@ $(document).ready(function(){
 <br>2. If a program has a .FILE extension, then complete the following steps:
 <br>3. Open the file in Notepad.
 <br>4. Click File > Save As.  Now, type a name for it such that the name ends in ".bat"
+
+<br><br><span class="clickbutton" id="program7">ENCRYPTME PROGRAM</span>
+
+<div class="programtab" id="tab7">
+&nbsp;&nbsp;&nbsp;Want to keep your files safe with AES-128 and SHA-256?  This is the program for you.  To use it, simply follow these steps:
+<br>1. Run EncryptMe.jar and follow the onscreen instructions.
+<br>2. Copy all of the files you want to encrypt into the <b>DecryptedFiles</b> folder.
+<br>3. After you encrypt and then decrypt your files, you will see that they appear in the <b>DecryptedFiles</b> folder again.
+<br><br><span id="download7" class="clickbutton">DOWNLOAD</span>
+</div>
 
 <br><br><span class="clickbutton" id="program6">JAVA REMOTE CONNECTION</span>
 
