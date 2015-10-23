@@ -21,6 +21,8 @@ function load(){
 		document.getElementById("download6").style.cursor = "pointer";
 		document.getElementById("program7").style.cursor = "pointer";
 		document.getElementById("download7").style.cursor = "pointer";
+		document.getElementById("program8").style.cursor = "pointer";
+		document.getElementById("download8").style.cursor = "pointer";
 		document.getElementById("expand").style.cursor = "pointer";
 	});
 }
@@ -33,6 +35,7 @@ $(document).ready(function(){
 		$("#tab5").slideToggle("fast");
 		$("#tab6").slideToggle("fast");
 		$("#tab7").slideToggle("fast");
+		$("#tab8").slideToggle("fast");
 		if(open === false){
 			open = true;
 			$("#expand").text("Collapse All");
@@ -83,6 +86,12 @@ $(document).ready(function(){
 	$("#download7").click(function(){
 		parent.location.href="https://www.dropbox.com/s/1lhez9l14ivk9hr/EncryptMe.jar?dl=1";
 	});
+	$("#program8").click(function(){
+		$("#tab8").slideToggle("fast");
+	});
+	$("#download8").click(function(){
+		parent.location.href="https://www.dropbox.com/s/8n7xxizkgi7x15y/ClickMacro.jar?dl=1";
+	});
 });
 </script>
 </head>
@@ -99,6 +108,18 @@ $(document).ready(function(){
 <br>2. If a program has a .FILE extension, then complete the following steps:
 <br>3. Open the file in Notepad.
 <br>4. Click File > Save As.  Now, type a name for it such that the name ends in ".bat"
+
+<br><br><span class="clickbutton" id="program8">CLICK MACRO</span>
+
+<div class="programtab" id="tab7">
+&nbsp;&nbsp;&nbsp;Want to spam a game with clicks?  Just use this.
+<br>1. Run ClickMacro.jar
+<br>2. Place your mouse where you want it to spam
+<br>3. Wait 10 seconds
+<br>4. Profit!
+<br>5. Move your mouse to stop the macro
+<br><br><span id="download8" class="clickbutton">DOWNLOAD</span>
+</div>
 
 <br><br><span class="clickbutton" id="program7">ENCRYPTME PROGRAM</span>
 
