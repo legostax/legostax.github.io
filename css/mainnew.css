@@ -3,7 +3,7 @@ body {
 	color: #000000;
 	font-family: "Segoe UI";
 }
-body.cc {
+body.cc{
 	background-color: #404040;
 	color: #000000;
 	font-family: "Courier New";
@@ -33,27 +33,27 @@ div.banner {
 	position: absolute;
 	top: 0px;
 }
-div.bannercontent {
-	background-color: #4D4D4D;
-	width: 500px;
-	padding: 15px;
-	top: 0px;
-	word-spacing: 15pt;
-}
 div.ccbanner {
 	background-color: #404040;
 	width: 95%;
 	padding: 0px;
 	position: absolute;
 	top: 0px;
+	font-size: 20px;
 }
 div.ccbannercontent {
-	background-color: #808080;
+	background-color: #737373;
 	width: 500px;
 	padding: 15px;
 	top: 0px;
 	word-spacing: 15pt;
-	font-size: 20px;
+}
+div.bannercontent {
+	background-color: #4D4D4D;
+	width: 500px;
+	padding: 15px;
+	top: 0px;
+	word-spacing: 15pt;
 }
 div.body {
 	background-color: #FFFFFF;
@@ -76,7 +76,8 @@ div.ccbody {
 	top: 100px;
 }
 div.ccbodycontent {
-	background-color: #B3B3B3;
+	background-color: #808080;
+	color: #FFFFFF;
 	width: 75%;
 	padding: 15px;
 	text-align: left;
