@@ -3,13 +3,6 @@
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <script src="scripts/redirect.js"></script>
 <title>LegoStax Studio - Home</title>
-<script>
-  var url = window.location.href;
-  if(url.substring(0,5) !== "https"){
-    var newurl = "https"+url.substring(4);
-    window.location.href=newurl;
-  }
-</script>
 </head>
 <body onload="checkHTTPS();">
 <center>
