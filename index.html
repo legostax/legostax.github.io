@@ -4,10 +4,9 @@
 <title>LegoStax Studio - Home</title>
 <script>
   var url = window.location.href;
-  console.log("url: "+url);
   if(url.substring(0,5) !== "https"){
     var newurl = "https"+url.substring(4);
-    console.log("newurl: "+newurl);
+    window.location.href=newurl;
   }
 </script>
 </head>
