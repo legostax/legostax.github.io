@@ -2,6 +2,13 @@
 <head>
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <title>LegoStax Studio - Home</title>
+<script>
+  var url = window.location.href;
+  if(url.substring(0,5) !== "https"){
+    var newurl = "https"+url.substring(5);
+    window.location.href=newurl;
+  }
+</script>
 </head>
 <body>
 <center>
