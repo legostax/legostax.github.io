@@ -1,7 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Cantarell:400,700);
 body {
 	background-color: #FFFFFF;
 	color: #000000;
-	font-family: "Segoe UI";
+	font-family: "Cantarell", sans-serif;
 }
 body.cc {
 	background-color: #404040;
