@@ -3,6 +3,7 @@
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <title>LegoStax Productions - Programs</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="scripts/redirect.js"></script>
 <script>
 var open = false;
 function load(){
@@ -95,7 +96,7 @@ $(document).ready(function(){
 });
 </script>
 </head>
-<body onload="load()">
+<body onload="checkHTTPS(); load();">
 <center>
 <!-- TOP BANNER -->
 <div class="banner"><div class="bannercontent"><a href="http://legostax.github.io">HOME</a>&nbsp;&nbsp;&nbsp;<a href="videos.html">VIDEOS</a>&nbsp;&nbsp;&nbsp;<a href="programs.html">PROGRAMS</a>&nbsp;&nbsp;&nbsp;<a href="contact.html">CONTACT</a></div></div>
