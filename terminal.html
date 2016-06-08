@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+<title>CC Browser Terminal</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="scripts/jquery.terminal-0.9.3.min.js"></script>
+<script src="scripts/jquery.mousewheel-min.js"></script>
+<script src="scripts/latestvid.js"></script>
+<link href="css/jquery.terminal-0.9.3.css" rel="stylesheet"/>
+<style>
+body {
+	background-color: #000000;
+}
+</style>
+<script>
+jQuery(function($, undefined) {
+	$('#term_demo').terminal(function(command, term) {
+		if (command !== '') {
+			if (command == 'help') {
+				term.echo('This is a fun thing you can use to navigate my website');
+				term.echo('It also accepts Javascript commands. If you\'re bored, make a webpage with Javascript ;)\n');
+				term.echo('Available commands:');
+				term.echo('help');
+				term.echo('screensize');
+				term.echo('quit');
+				term.echo('animprog');
+				term.echo('latestvideo');
+				term.echo('programs');
+			}else if (command == 'screensize') {
+				term.echo('Width: '+screen.width);
+				term.echo('Height: '+screen.height);
+				term.echo('Terminal size:');
+				term.echo('Width: '+ (screen.width-40));
+				term.echo('Height: '+ (screen.height-160));
+			}else if (command == 'quit') {
+				term.echo('quitting...');
+				parent.location.href='http://legostax.github.io';
+			}else if (command == 'animprog') {
+				term.echo('Animation Title: How The Force Awakens Should Have Ended');
+				term.echo('Script (100%)');
+				term.echo('Set-building (100%)');
+				term.echo('Animation (15%)');
+				term.echo('Compositing (8%)');
+				term.echo('Effects (0%)');
+				term.echo('Last updated February 21, 2016');
+			}else if (command == 'latestvideo'){
+				var id = getLatest(false);
+				console.log("Latest vid: "+id);
+				//parent.location.href='https://www.youtube.com/watch?v='+id;
+			}else if (command == 'programs'){
+				
+			}else{
+				var result = window.eval(command);
+				if (result != undefined) {
+					term.echo(String(result));
+				}
+			}
+		}
+	}, {
+		greetings: 'Website Navigator\nType \'help\' for help',
+		name: 'js_demo',
+		height: screen.height-160,
+		width: screen.width-40,
+		prompt: 'website> ',
+		outputLimit: -1
+	});
+});
+</script>
+</head>
+<body>
+<div id="term_demo"></div>
+</body>
+</html>
