@@ -2,6 +2,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <script src="scripts/redirect.js"></script>
+<script src="scripts/animprog.js"></script>
 <title>LegoStax Studio - Home</title>
 </head>
 <body onload="checkHTTPS();">
@@ -22,19 +23,56 @@
 <br>
 <div class="animprogress" id="progress">
 <b><div class="left" style="font-size: 20px;">Current Animation Progress:</div></b>
-<br><div class="left">Animation Title: How The Force Awakens Should Have Ended (rebuilding a new set and restarting animation)</div>
-<br><div class="left">Script (100%)</div>
-<br><div class="animbarbg"></div><div class="animbar" style="width:100px;"></div>
-<br><div class="left">Set-building (100%)</div>
-<br><div class="animbarbg"></div><div class="animbar" style="width:100px;"></div>
-<br><div class="left">Animation (30%)</div>
-<br><div class="animbarbg"></div><div class="animbar" style="width:30px;"></div>
-<br><div class="left">Compositing (30%)</div>
-<br><div class="animbarbg"></div><div class="animbar" style="width:30px;"></div>
-<br><div class="left">Effects (10%)</div>
-<br><div class="animbarbg"></div><div class="animbar" style="width:10px;"></div>
-<br><div class="left">Last updated June 15, 2016</div>
+<br><div class="left" id="textscript">Script (0%)</div>
+<br><div class="animbarbg"></div><div class="animbar" id="barscript" style="width:0px;"></div>
+<br><div class="left" id="textset">Set-building (0%)</div>
+<br><div class="animbarbg"></div><div class="animbar" id="barset" style="width:0px;"></div>
+<br><div class="left" id="textanim">Animation (0%)</div>
+<br><div class="animbarbg"></div><div class="animbar" id="baranim" style="width:0px;"></div>
+<br><div class="left" id="textcomp">Compositing (0%)</div>
+<br><div class="animbarbg"></div><div class="animbar" id="barcomp" style="width:0px;"></div>
+<br><div class="left" id="texteffects">Effects (0%)</div>
+<br><div class="animbarbg"></div><div class="animbar" id="bareffects" style="width:0px;"></div>
+<br><div class="left" id="date">Last updated </div>
 </div>
+<script type="text/javascript">
+var title = "[failed to load]";
+var script = 0;
+var set_building = 0;
+var animation = 0;
+var compositing = 0;
+var effects = 0;
+var date = "[failed to load]";
+
+setParams();
+
+console.log("title: "+title);
+console.log("script: "+script);
+console.log("set_building: "+set_building);
+console.log("animation: "+animation);
+console.log("compositing: "+compositing);
+console.log("effects: "+effects);
+console.log("date: "+date);
+
+document.getElementById("title").innerHTML = "Animation Title: "+title;
+
+document.getElementById("textscript").innerHTML = "Script ("+script+"%)";
+document.getElementById("barscript").setAttribute("style", "width:"+script+"px;");
+
+document.getElementById("textset").innerHTML = "Set-building ("+set_building+"%)";
+document.getElementById("barset").setAttribute("style", "width:"+set_building+"px;");
+
+document.getElementById("textanim").innerHTML = "Animation ("+animation+"%)";
+document.getElementById("baranim").setAttribute("style", "width:"+animation+"px;");
+
+document.getElementById("textcomp").innerHTML = "Compositing ("+compositing+"%)";
+document.getElementById("barcomp").setAttribute("style", "width:"+compositing+"px;");
+
+document.getElementById("texteffects").innerHTML = "Effects ("+effects+"%)";
+document.getElementById("bareffects").setAttribute("style", "width:"+effects+"px;");
+
+document.getElementById("date").innerHTML = "Last updated "+date;
+</script>
 <!-- END BODY -->
 </div>
 </center>
