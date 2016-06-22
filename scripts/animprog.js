@@ -2,8 +2,8 @@ function setParams(){
 	title = "How The Force Awakens Should Have Ended (rebuilding a new set and restarting animation)";
 	script = 100;
 	set_building = 98;
-	animation = 88;
+	animation = 92;
 	compositing = 50;
 	effects = 10;
-	date = "June 21, 2016";
+	date = "June 22, 2016";
 }
