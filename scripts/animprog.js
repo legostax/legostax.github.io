@@ -3,7 +3,7 @@ function setParams(){
 	script = 100;
 	set_building = 98;
 	animation = 98;
-	compositing = 50;
+	compositing = 80;
 	effects = 10;
-	date = "June 22, 2016";
+	date = "June 23, 2016";
 }
