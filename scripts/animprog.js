@@ -4,6 +4,6 @@ function setParams(){
 	set_building = 98;
 	animation = 98;
 	compositing = 96;
-	effects = 96;
-	date = "June 27, 2016";
+	effects = 97;
+	date = "June 28, 2016";
 }
