@@ -5,5 +5,5 @@ function setParams(){
 	animation = 11.6; // total of 43 shots
 	compositing = 0;
 	effects = 0;
-	date = "July 30, 2016";
+	date = "August 1, 2016";
 }
