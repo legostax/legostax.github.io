@@ -5,4 +5,5 @@ function checkHTTPS(){
     var newurl = "https"+url.substring(4);
     window.location.href=newurl;
   }
+  console.log("ran checkhttps");
 };
