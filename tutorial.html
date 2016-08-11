@@ -1,33 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<script src="scripts/redirect.js"></script>
-<title>Raspberry Pi SSH Tunnel</title>
+	<link rel="shortcut icon" href="favicon/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="favicon/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="favicon/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="favicon/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="favicon/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16.png">
+	<link rel="apple-touch-icon" href="favicon/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="favicon/favicon-144.png">
+	<meta name="msapplication-config" content="favicon/browserconfig.xml">
+	<!-- Favicon
+	<script src="scripts/redirect.js">checkHTTPS();</script> -->
+	<title>SSH Tunnel Tutorial - LegoStax</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://use.fontawesome.com/864f92fd04.js"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+			document.getElementById("page-outer").style.opacity = 1;
+		}
+		window.onbeforeunload = function(){
+			document.getElementById("page-outer").style.opacity = 0;
+		}
+	</script>
 </head>
-<body onload="checkHTTPS();">
-<center>
-<!-- TOP BANNER -->
-<div class="banner"><div class="bannercontent"><a href="https://legostax.github.io">HOME</a>&nbsp;&nbsp;&nbsp;<a href="videos.html">VIDEOS</a>&nbsp;&nbsp;&nbsp;<a href="programs.html">PROGRAMS</a>&nbsp;&nbsp;&nbsp;<a href="contact.html">CONTACT</a></div></div>
-<div class="body">
-<div class="bodycontent">
-	<span style="font-size: 25px;">How To Set Up an SSH Tunnel with your Raspberry Pi</span>
-	<br>Skip to tutorial:
-	<br>- <a href="#server">Server Setup</a>
-	<br>- <a href="#client">Client Setup</a>
-	<br><br><span id="server" style="font-size:18px;">Server Setup</span>
-	<br>To be written...
-	<br><br><span id="client" style="font-size:18px;">Client Setup</span>
-	<br>To start, visit the Chrome Webstore to download <a href="https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo">this SSH app</a> and open it up.
-	<br>Next, type your username and hostname in the respective fields.
-	<br>Then put <b>-D 8800</b> in the SSH Arguments field. Then press Enter and login to the Pi with your password.
-	<br><b>NOTE: YOU MUST LEAVE THIS TAB OPEN IN ORDER FOR THE SSH TUNNEL TO CONTINUE WORKING.</b>
-	<br><br>Next, you're going to want to download my <a href="https://legostax.github.io/files/LSVPN.crx">Chrome extension.</a>
-	<br>Then, open a new tab and type <a href="chrome://extensions">chrome://extensions</a>.
-	<br>Now open the file browser on your operating system, whether that's Explorer, Finder, etc, and drag the LSVPN.crx from your Downloads folder onto the Extensions page. This will install the extension on your Chrome browser.
-	<br><b>NOTE: IF YOU ARE ON WINDOWS OR MAC, YOU WILL HAVE TO INSTALL THE LSVPN EXTENSION EVERY TIME YOU CLOSE CHROME.</b>
-	<br><br>This concludes the tutorial. If you have any further questions, email me at <a href="mailto:staxbusiness@gmail.com">staxbusiness@gmail.com</a>.
-</div>
-</div>
-</center>
+<body>
+    <div class="page-outer" id="page-outer">
+	<div class="page-middle">
+		<center><div class="bgimage" style="background: url(images/profile_pic.png) no-repeat; background-size: 100px 100px;"></div></center>
+		<br><a href="index.html" style="color:#ffffff;position:relative;right:300px;"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>SSH Tunnel Tutorial
+		<div class="page-inner" style="margin-top: 20px;">
+            <span style="font-size: 25px;">How To Set Up an SSH Tunnel with your Raspberry Pi</span>
+        	<br>Skip to tutorial:
+        	<br>- <a href="#server">Server Setup</a>
+        	<br>- <a href="#client">Client Setup</a>
+        	<br><br><span id="server" style="font-size:18px;">Server Setup</span>
+        	<br>To be written...
+        	<br><br><span id="client" style="font-size:18px;">Client Setup</span>
+        	<br>To start, visit the Chrome Webstore to download <a href="https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo">this SSH app</a> and open it up.
+        	<br>Next, type your username and hostname in the respective fields.
+        	<br>Then put <b>-D 8800</b> in the SSH Arguments field. Then press Enter and login to the Pi with your password.
+        	<br><b>NOTE: YOU MUST LEAVE THIS TAB OPEN IN ORDER FOR THE SSH TUNNEL TO CONTINUE WORKING.</b>
+        	<br><br>Next, you're going to want to download my <a href="https://legostax.github.io/files/LSVPN.crx">Chrome extension.</a>
+        	<br>Then, open a new tab and type <a href="chrome://extensions">chrome://extensions</a>.
+        	<br>Now open the file browser on your operating system, whether that's Explorer, Finder, etc, and drag the LSVPN.crx from your Downloads folder onto the Extensions page. This will install the extension on your Chrome browser.
+        	<br><b>NOTE: IF YOU ARE ON WINDOWS OR MAC, YOU WILL HAVE TO INSTALL THE LSVPN EXTENSION EVERY TIME YOU CLOSE CHROME.</b>
+        	<br><br>This concludes the tutorial. If you have any further questions, email me at <a href="mailto:staxbusiness@gmail.com">staxbusiness@gmail.com</a>.
+        </div>
+    </div>
+    </div>
 </body>
 </html>

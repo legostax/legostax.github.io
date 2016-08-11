@@ -1,201 +1,131 @@
 <!doctype html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<title>LegoStax Productions - Programs</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="scripts/redirect.js"></script>
-<script>
-var open = false;
-function load(){
-	$(document).ready(function(){
-		document.getElementById("program1").style.cursor = "pointer";
-		document.getElementById("download1").style.cursor = "pointer";
-		document.getElementById("program2").style.cursor = "pointer";
-		document.getElementById("download2").style.cursor = "pointer";
-		document.getElementById("program3").style.cursor = "pointer";
-		document.getElementById("download3").style.cursor = "pointer";
-		document.getElementById("program4").style.cursor = "pointer";
-		document.getElementById("download4").style.cursor = "pointer";
-		document.getElementById("program5").style.cursor = "pointer";
-		document.getElementById("download5").style.cursor = "pointer";
-		document.getElementById("program6").style.cursor = "pointer";
-		document.getElementById("download6").style.cursor = "pointer";
-		document.getElementById("program7").style.cursor = "pointer";
-		document.getElementById("download7").style.cursor = "pointer";
-		document.getElementById("program8").style.cursor = "pointer";
-		document.getElementById("download8").style.cursor = "pointer";
-		document.getElementById("expand").style.cursor = "pointer";
-	});
-}
-$(document).ready(function(){
-	$("#expand").click(function(){
-		$("#tab1").slideToggle("fast");
-		$("#tab2").slideToggle("fast");
-		$("#tab3").slideToggle("fast");
-		$("#tab4").slideToggle("fast");
-		$("#tab5").slideToggle("fast");
-		$("#tab6").slideToggle("fast");
-		$("#tab7").slideToggle("fast");
-		$("#tab8").slideToggle("fast");
-		if(open === false){
-			open = true;
-			$("#expand").text("Collapse All");
-		}else{
-			open = false;
-			$("#expand").text("Expand All");
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="favicon/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="favicon/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="favicon/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="favicon/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16.png">
+	<link rel="apple-touch-icon" href="favicon/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="favicon/favicon-144.png">
+	<meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <!-- Favicon
+	<script src="scripts/redirect.js">checkHTTPS();</script> -->
+    <title>Programs - LegoStax</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://use.fontawesome.com/864f92fd04.js"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+			document.getElementById("page-outer").style.opacity = 1;
 		}
-	});
-	$("#program1").click(function(){
-		$("#tab1").slideToggle("fast");
-	});
-	$("#download1").click(function(){
-		parent.location.href="https://www.dropbox.com/s/i9ybnd11h3p8et1/Minebatch.zip?dl=1";
-	});
-	$("#program2").click(function(){
-		$("#tab2").slideToggle("fast");
-	});
-	$("#download2").click(function(){
-		parent.location.href="https://www.dropbox.com/s/8wa5bemi9a8dxkk/Tic%20Tac%20Toe.file?dl=1";
-	});
-	$("#program3").click(function(){
-		$("#tab3").slideToggle("fast");
-	});
-	$("#download3").click(function(){
-		parent.location.href="https://www.dropbox.com/s/ji5gnc2zcd3kk9b/RPS.file?dl=1";
-	});
-	$("#program4").click(function(){
-		$("#tab4").slideToggle("fast");
-	});
-	$("#download4").click(function(){
-		parent.location.href="https://www.dropbox.com/s/v92t0ownmsif9ee/Jarvis.file?dl=1";
-	});
-	$("#program5").click(function(){
-		$("#tab5").slideToggle("fast");
-	});
-	$("#download5").click(function(){
-		parent.location.href="https://www.dropbox.com/s/sf6i94m5cnl9x8y/Calculator.file?dl=1";
-	});
-	$("#program6").click(function(){
-		$("#tab6").slideToggle("fast");
-	});
-	$("#download6").click(function(){
-		parent.location.href="https://www.dropbox.com/s/2tjkxs037bylp8q/Stuffs.zip?dl=1";
-	});
-	$("#program7").click(function(){
-		$("#tab7").slideToggle("fast");
-	});
-	$("#download7").click(function(){
-		parent.location.href="https://www.dropbox.com/s/1lhez9l14ivk9hr/EncryptMe.jar?dl=1";
-	});
-	$("#program8").click(function(){
-		$("#tab8").slideToggle("fast");
-	});
-	$("#download8").click(function(){
-		parent.location.href="https://www.dropbox.com/s/8n7xxizkgi7x15y/ClickMacro.jar?dl=1";
-	});
-});
-</script>
+		window.onbeforeunload = function(){
+			document.getElementById("page-outer").style.opacity = 0;
+		}
+	</script>
 </head>
-<body onload="checkHTTPS(); load();">
-<center>
-<!-- TOP BANNER -->
-<div class="banner"><div class="bannercontent"><a href="https://legostax.github.io">HOME</a>&nbsp;&nbsp;&nbsp;<a href="videos.html">VIDEOS</a>&nbsp;&nbsp;&nbsp;<a href="programs.html">PROGRAMS</a>&nbsp;&nbsp;&nbsp;<a href="contact.html">CONTACT</a></div></div>
-<!-- BODY -->
-<div class="body">
-<div class="bodycontent">
-<p align="right"><span class="clickbutton" id="expand">Expand All</span></p>
-<b>Method to download programs:</b>
-<br>1. Download a program below.
-<br>2. If a program has a .FILE extension, then complete the following steps:
-<br>3. Open the file in Notepad.
-<br>4. Click File > Save As.  Now, type a name for it such that the name ends in ".bat"
-
-<br><br><span class="clickbutton" id="program8">CLICK MACRO</span>
-
-<div class="programtab" id="tab8">
-&nbsp;&nbsp;&nbsp;Want to spam a game with clicks?  Just use this.
-<br>1. Run ClickMacro.jar
-<br>2. Place your mouse where you want it to spam
-<br>3. Wait 10 seconds
-<br>4. Profit!
-<br>5. Move your mouse to stop the macro
-<br><br><span id="download8" class="clickbutton">DOWNLOAD</span>
-</div>
-
-<br><br><span class="clickbutton" id="program7">ENCRYPTME PROGRAM</span>
-
-<div class="programtab" id="tab7">
-&nbsp;&nbsp;&nbsp;This was really just a learning experience for me. It's probably extremely secure.
-<br>Want to keep your files safe with AES-128 and SHA-256?  This is the program for you.  To use it, simply follow these steps:
-<br>1. Run EncryptMe.jar and follow the onscreen instructions.
-<br>2. Copy all of the files you want to encrypt into the <b>DecryptedFiles</b> folder.
-<br>3. After you encrypt and then decrypt your files, you will see that they appear in the <b>DecryptedFiles</b> folder again.
-<br><br><span id="download7" class="clickbutton">DOWNLOAD</span>
-</div>
-
-<br><br><span class="clickbutton" id="program6">JAVA REMOTE CONNECTION</span>
-
-<div class="programtab" id="tab6">
-&nbsp;&nbsp;&nbsp;This is the ultimate pranking program.  This Java 7 program is practically a means of communicating between two computers through a secure AES-128 connection.  This is my most sophisticated program that I've written yet.  To use it, simply perform the following steps:
-<br>1. Copy the SERVER.jar to the victim's computer.
-<br>2. Open GetIPv4.bat.  Write down the IPv4 address that corresponds to Local Area Connection.  You will need this later.
-<br>4. Run SERVER.jar.
-<br>5. Come back to your own computer, and run CLIENT.bat.  This will open a Java command prompt window.
-<br>6. Type in the IP that you wrote down, and you are now connected to your friend's or sibling's computer through the same network.
-<br>7. Type /help to see commands.  Anything else that you type will appear on their screen.
-<br><b style="color: red;">NOTE: THIS WILL ONLY WORK IF BOTH COMPUTERS ARE CONNECTED TO THE SAME NETWORK (ROUTER)</b>
-<br><br><span id="download6" class="clickbutton">DOWNLOAD</span>
-</div>
-
-<br><br><span class="clickbutton" id="program1">MINEBATCH</span>
-
-<div class="programtab" id="tab1">
-&nbsp;&nbsp;&nbsp;This was a major learning experience that showed me the confines of the Windows Batch language. (bash is better)
-<br>This is a program that I started working on a few years ago.  I was obsessed with the popular game Minecraft at the time.  Basically, the scope of the project was to build a program that was like that of Minecraft in an aerial sense.  In other words, it was like something that would be found as a flash game, or something of that nature.  After extensive work, I created a game that had a nice GUI for being inside of Windows Command Prompt, had relatively easy controls, and still a few bugs.  Now, due to my lack of enjoyment in coding in Batch, the program's bugs remain.
-<br>Change the file extension from ".file" to ".bat" to run.
-<br><b>Known Bugs:</b>
-<br> - Blocks can only be placed on the left side of the screen
-<br> - A world save is lost after the game is closed.
-<br> - World save files are not written and read properly to construct a proper environment
-<br><br><b style="color: red;">EXPERIMENTAL CODE</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="download1" class="clickbutton">DOWNLOAD AT YOUR OWN RISK</span>
-</div>
-
-<br><br><span class="clickbutton" id="program2">TIC TAC TOE</span>
-
-<div class="programtab" id="tab2">
-&nbsp;&nbsp;&nbsp;I created this program for fun.  It is to be used as a two player game.  I never implemented a player versus computer version as I was not capable of such a feat in Batch programming.  All I could think of doing was build a function that would win every single time, using the not-so-secret sequence to Tic-Tac-Toe.
-<br>Change the file extension from ".file" to ".bat" to run.
-<br><br><span id="download2" class="clickbutton">DOWNLOAD</span>
-</div>
-
-<br><br><span class="clickbutton" id="program3">ROCK PAPER SCISSORS</span>
-
-<div class="programtab" id="tab3">
-&nbsp;&nbsp;&nbsp;This program is a complete prank.  It's designed such that the computer reads your input but, and makes decisions so that it will always win.
-<br>This would be a great program to use to prank your friends.
-<br>Change the file extension from ".file" to ".bat" to run.
-<br><br><span id="download3" class="clickbutton">DOWNLOAD</span>
-</div>
-
-<br><br><span class="clickbutton" id="program4">JARVIS</span>
-<div class="programtab" id="tab4">
-&nbsp;&nbsp;&nbsp;After seeing the blockbuster Iron Man, I had to create this program.  It's pretty much self explanatory.  Using Windows Speech Macros, I was able to set it up so that I could talk to my computer, and it would input a command to this program and process accordingly.
-<br>Change the file extension from ".file" to ".bat" to run.
-<br><br><span id="download4" class="clickbutton">DOWNLOAD</span>
-</div>
-
-<br><br><span class="clickbutton" id="program5">CALCULATOR</span>
-<div class="programtab" id="tab5">
-&nbsp;&nbsp;&nbsp;This was basically my first Batch program.  I was playing with the mathematical functions.  It's nothing too special.
-<br>Change the file extension from ".file" to ".bat" to run.
-<br><br><span id="download5" class="clickbutton">DOWNLOAD</span>
-</div>
-
-<br><br>** By downloading any and all programs on this website, you agree that the developer (LegoStax) is not responsible for any damage or destruction that may come to your system.
-<!-- SUBSCRIBE BUTTON <br><br><br><script src="https://apis.google.com/js/platform.js"></script>
-<div class="g-ytsubscribe" data-channel="LegoStax" data-layout="default" data-count="default"></div> -->
-<!-- END BODY -->
-</div></div>
-</center>
+<body>
+    <div class="page-outer" id="page-outer">
+    <div class="page-middle">
+        <center><div class="bgimage" style="background: url(images/profile_pic.png) no-repeat; background-size: 100px 100px;"></div></center>
+		<br><a href="index.html" style="color:#ffffff;position:relative;right:350px;"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>Programs
+        <div class="page-inner" style="margin-top: 20px;">
+            <button class="accordion">ComputerCraft Programs</button>
+            <div class="panel">
+                <a href="http://www.computercraft.info/forums2/index.php?/topic/27078-ccjam-2016-peripheral-manager/" target="_blank">Peripheral Manager</a>
+                <br><a href="http://www.computercraft.info/forums2/index.php?/topic/26154-gset-gui-for-settings-api/" target="_blank">GSet</a>
+                <br><a href="http://www.computercraft.info/forums2/index.php?/topic/25207-ccwiki-11" target="_blank">CCWiki</a>
+                <br><a href="http://www.computercraft.info/forums2/index.php?/topic/24796-rednet-snooper" target="_blank">Rednet Snooper</a>
+            </div>
+            <button class="accordion">Click Macro</button>
+            <div class="panel">
+                Want to spam a game with clicks? Just use this.
+                <br>1. Run ClickMacro.jar.
+                <br>2. Place your mouse where you want it to spam.
+                <br>3. Wait 10 seconds.
+                <br>4. Profit!
+                <br>5. Move your mouse to stop the macro.
+                <br><a href="https://www.dropbox.com/s/8n7xxizkgi7x15y/ClickMacro.jar?dl=1">DOWNLOAD</a>
+            </div>
+            <button class="accordion">EncryptMe Program</button>
+            <div class="panel">
+                NOTE: This was really just a learned experience for me.  It's probably extremely insecure.
+                <br>Want to keep your files safe with AES-128 and SHA-256?
+                <br>1. Run EncryptMe.jar and follow the onscreen instructions.
+                <br>2. Copy all of the files you want to encrypt into the DecryptedFiles folder.
+                <br>3. After you encrypt and then decrypt your files, you will see that they appear in the Decrypted Files folder again.
+                <br><a href="https://www.dropbox.com/s/1lhez9l14ivk9hr/EncryptMe.jar?dl=1">DOWNLOAD</a>
+            </div>
+            <button class="accordion">Java Remote Connection</button>
+            <div class="panel">
+                This is the ultimate pranking program. This Java 7 program is practically a means of communicating between two computers through a secure AES-128 connection. This is my most sophisticated program that I've written yet.
+                <br>1. Copy the SERVER.jar to the victim's computer.
+                <br>2. Open GetIPv4.bat. Write down the IPv4 address that corresponds to Local Area Connection. You will need this later.
+                <br>3. Run SERVER.jar.
+                <br>4. Go back to your own computer and run CLIENT.bar. This will open a Java command prompt window.
+                <br>5. Type in the IP that you wrote down, and you are now connected to your friend's or sibling's computer through the same network.
+                <br>7. Type /help to see commands. Anything else that you type will appear on their screen.
+                <br>NOTE: THE VICTIM AND MASTER COMPUTERS MUST BE ON THE SAME NETWORK. ALSO, THE ROUTER NEEDS TO FORWARD PORT 444 TO THE VICTIM'S IP ADDRESS.
+                <br><a href="https://www.dropbox.com/s/2tjkxs037bylp8q/Stuffs.zip?dl=1">DOWNLOAD</a>
+            </div>
+            <button class="accordion">Minebatch</button>
+            <div class="panel">
+                This was a major learning experience that shoed me the confines of the Windows Batch language. (bash is better)
+                <br>This is a game that I started working on a few years ago. I was obsessed with the popular game Minecraft at the time. Basically, the scope of the project was to build a command line game that was like Minecraft in an aerial 2D sense. After extensive work, I created a game that had a nice GUI for being inside of Windows Command Prompt, had relatively easy controls, and still a few bugs. Now, due to my lack of enjoyment in coding in Batch, the game's bugs remain.
+                <br>Change the file extension from <b>.file</b> to <b>.bat</b> to run.
+                <br><b>Known bugs:</b>
+                <br>- Blocks can only be placed on the left side of the screen.
+                <br>- A world save is lost after the game is closed.
+                <br>- World save files are not written and read properly to construct a proper environment.
+                <br><a href="https://www.dropbox.com/s/i9ybnd11h3p8et1/Minebatch.zip?dl=1">DOWNLOAD AT YOUR OWN RISK</a>
+            </div>
+            <button class="accordion">Tic Tac Toe</button>
+            <div class="panel">
+                I created this program for fun. It is to be used as a two player game. I never implemented a player versus computer version as I was not capable of such a feat in Batch programming. All I could think of doing was building a function that would win every single time, using the not-so-secret sequence to Tic-Tac-Toe.
+                <br>Change the file extension from <b>.file</b> to <b>.bat</b> to run.
+                <br><a href="https://www.dropbox.com/s/8wa5bemi9a8dxkk/Tic%20Tac%20Toe.file?dl=1">DOWNLOAD</a>
+            </div>
+            <button class="accordion">Rock Paper Scissors</button>
+            <div class="panel">
+                This program is a complete prank. It's designed such that the computer reads your input and makes decisions so that it will always win.
+                <br>This would be a great program to use to prank your friends.
+                <br>Change the file extension from <b>.file</b> to <b>.bat</b> to run.
+                <br><a href="https://www.dropbox.com/s/ji5gnc2zcd3kk9b/RPS.file?dl=1">DOWNLOAD</a>
+            </div>
+            <button class="accordion">J.A.R.V.I.S.</button>
+            <div class="panel">
+                After seeing the blockbuster Iron Man, I had to create this program. It's pretty much self-explanatory. Using Windows Speech Macros, I was able to set it up so that I could talk to my computer, and it would input a command to this program and process accordingly.
+                <br>Change the file extension from <b>.file</b> to <b>.bat</b> to run.
+                <br><a href="https://www.dropbox.com/s/v92t0ownmsif9ee/Jarvis.file?dl=1">DOWNLOAD</a>
+            </div>
+            <button class="accordion">Calculator</button>
+            <div class="panel">
+                This was basically my first Batch program. I was playing with the mathematical functions. It's nothing too special.
+                <br>Change the file extension from <b>.file</b> to <b>.bat</b> to run.
+                <br><a href="https://www.dropbox.com/s/sf6i94m5cnl9x8y/Calculator.file?dl=1">DOWNLOAD</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        var a = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < a.length; i++){
+            a[i].onclick = function(){
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+            }
+        }
+    </script>
 </body>
 </html>

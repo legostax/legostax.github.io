@@ -15,6 +15,7 @@ function getLatest(videos){
 				dummy(data);
 			}else if(status === "success" && videos === false){
 				console.log("got data");
+				console.log("data is: "+data.items[0].contentDetails.videoId);
 				return data;
 				//return data.items[0].contentDetails.videoId;
 			}

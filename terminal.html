@@ -13,6 +13,7 @@ body {
 }
 </style>
 <script>
+var id = 'failed to get url';
 jQuery(function($, undefined) {
 	$('#term_demo').terminal(function(command, term) {
 		if (command !== '') {
@@ -22,7 +23,7 @@ jQuery(function($, undefined) {
 				term.echo('Available commands:');
 				term.echo('help');
 				term.echo('screensize');
-				term.echo('quit');
+				term.echo('exit');
 				term.echo('animprog');
 				term.echo('latestvideo');
 				term.echo('programs');
@@ -32,8 +33,8 @@ jQuery(function($, undefined) {
 				term.echo('Terminal size:');
 				term.echo('Width: '+ (screen.width-40));
 				term.echo('Height: '+ (screen.height-160));
-			}else if (command == 'quit') {
-				term.echo('quitting...');
+			}else if (command == 'exit') {
+				term.echo('Logging out...');
 				parent.location.href='http://legostax.github.io';
 			}else if (command == 'animprog') {
 				setParams();
@@ -45,8 +46,11 @@ jQuery(function($, undefined) {
 				term.echo('Effects: ('+effects+'%)');
 				term.echo('Last updated on '+date);
 			}else if (command == 'latestvideo'){
-				var id = getLatest(false);
-				console.log("Latest vid: "+id);
+				setTimeout(function(){id = getLatest(false);}, 5000);
+				term.echo("Latest vid from terminal: "+id);
+
+				// SOLUTION: WRITE A COOKIE IMMEDIATELY, AND WAIT 5 SECONDS TO READ IT.
+
 				//parent.location.href='https://www.youtube.com/watch?v='+id;
 			}else if (command == 'programs'){
 
