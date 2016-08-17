@@ -5,5 +5,5 @@ function setParams(){
 	animation = 30.2; // 13/43 shots
 	compositing = 2;
 	effects = 0;
-	date = "August 15, 2016";
+	date = "August 16, 2016";
 }
