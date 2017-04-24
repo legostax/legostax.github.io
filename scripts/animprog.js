@@ -1,9 +1,9 @@
 function setParams(){
-	title = "Sight and Sound contest entry (untitled)";
+	title = "Obstipation (will resume Sight and Sound in summer 2017)";
 	script = 100;
-	set_building = 75; // 6/8 sets
-	animation = 48.8; // 21/43 shots
-	compositing = 2;
+	set_building = 98; // 6/8 sets
+	animation = 0; // 21/43 shots
+	compositing = 0;
 	effects = 0;
-	date = "August 28, 2016";
+	date = "April 23, 2017";
 }
