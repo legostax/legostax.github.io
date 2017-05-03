@@ -28,6 +28,8 @@
 	<script type="text/javascript">
 		window.onload = function(){
 			document.getElementById("page-outer").style.opacity = 1;
+			var dt = new Date();
+			document.getElementById("yrs").textContent = dt.getYear() - 114;
 			
 		}
 		window.onbeforeunload = function(){
