@@ -121,7 +121,8 @@
 			document.getElementById("title").innerHTML = "Animation Title: "+title;
 
 			document.getElementById("textscript").innerHTML = "<i class=\"fa fa-file-text\" aria-hidden=\"true\"></i> Script ("+script+"%)";
-			document.getElementById("barscript").setAttribute("style", "width:"+script+"%;");
+			$("#barscript").animate(width: script+'%'}, 250);
+			//document.getElementById("barscript").setAttribute("style", "width:"+script+"%;");
 
 			document.getElementById("textset").innerHTML = "<i class=\"fa fa-building\" aria-hidden=\"true\"></i> Set-building ("+set_building+"%)";
 			document.getElementById("barset").setAttribute("style", "width:"+set_building+"%;");
