@@ -119,24 +119,20 @@
 			setParams();
 
 			document.getElementById("title").innerHTML = "Animation Title: "+title;
-
 			document.getElementById("textscript").innerHTML = "<i class=\"fa fa-file-text\" aria-hidden=\"true\"></i> Script ("+script+"%)";
-			$("#barscript").animate({width: script+'%'}, 250);
 			//document.getElementById("barscript").setAttribute("style", "width:"+script+"%;");
-
 			document.getElementById("textset").innerHTML = "<i class=\"fa fa-building\" aria-hidden=\"true\"></i> Set-building ("+set_building+"%)";
-			document.getElementById("barset").setAttribute("style", "width:"+set_building+"%;");
-
 			document.getElementById("textanim").innerHTML = "<i class=\"fa fa-video-camera\" aria-hidden=\"true\"></i> Animation ("+animation+"%)";
-			document.getElementById("baranim").setAttribute("style", "width:"+animation+"%;");
-
 			document.getElementById("textcomp").innerHTML = "<i class=\"fa fa-forward\" aria-hidden=\"true\"></i> Compositing ("+compositing+"%)";
-			document.getElementById("barcomp").setAttribute("style", "width:"+compositing+"%;");
-
 			document.getElementById("texteffects").innerHTML = "<i class=\"fa fa-magic\" aria-hidden=\"true\"></i> Effects ("+effects+"%)";
-			document.getElementById("bareffects").setAttribute("style", "width:"+effects+"%;");
-
 			document.getElementById("date").innerHTML = "Last updated "+date;
+			setTimeout(function(){
+				$("#barscript").animate({width: script+'%'}, 250);
+				$("#barset").animate({width: set_building+'%'}, 250);
+				$("#baranim").animate({width: animation+'%'}, 250);
+				$("#barcomp").animate({width: compositing+'%'}, 250);
+				$("#bareffects").animate({width: effects+'%'}, 250);
+			}, 500);
 		</script>
 
     </div>
