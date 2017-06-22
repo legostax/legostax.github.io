@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/legostax
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://legostax.github.io
+  * I am legostax (https://keybase.io/legostax) on keybase.
+  * I have a public key ASCSPo9y_k2dXo55_dJ41iF8p4NWedbXKPGBa5Q346HGCwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120923e8f72fe4d9d5e8e79fdd278d6217ca7835679d6d728f1816b9437e3a1c60b0a",
+            "host": "keybase.io",
+            "kid": "0120923e8f72fe4d9d5e8e79fdd278d6217ca7835679d6d728f1816b9437e3a1c60b0a",
+            "uid": "593b28358fa82fa506bfa64a4b88e219",
+            "username": "legostax"
+        },
+        "merkle_root": {
+            "ctime": 1498165198,
+            "hash": "50cda0dac71e11656732dbebf1989d36a7546ec5bf24d1d7c0aab074478728c5f407ea3a215176e6f649c06120082e1e629342943086cc8452238ea304745e7e",
+            "hash_meta": "76d7f8e2f0f84e323b18d40161b2c368cebbca403a400ff0961e5b3d9b53a626",
+            "seqno": 1188144
+        },
+        "service": {
+            "hostname": "legostax.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.24"
+    },
+    "ctime": 1498165211,
+    "expire_in": 504576000,
+    "prev": "a629b198a750065ed3311cba680763750f4a9f1a67fb2222d8ff28b01189105a",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgkj6Pcv5NnV6Oef3SeNYhfKeDVnnW1yjxgWuUN+OhxgsKp3BheWxvYWTFA0p7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOTIzZThmNzJmZTRkOWQ1ZThlNzlmZGQyNzhkNjIxN2NhNzgzNTY3OWQ2ZDcyOGYxODE2Yjk0MzdlM2ExYzYwYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOTIzZThmNzJmZTRkOWQ1ZThlNzlmZGQyNzhkNjIxN2NhNzgzNTY3OWQ2ZDcyOGYxODE2Yjk0MzdlM2ExYzYwYjBhIiwidWlkIjoiNTkzYjI4MzU4ZmE4MmZhNTA2YmZhNjRhNGI4OGUyMTkiLCJ1c2VybmFtZSI6ImxlZ29zdGF4In0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDk4MTY1MTk4LCJoYXNoIjoiNTBjZGEwZGFjNzFlMTE2NTY3MzJkYmViZjE5ODlkMzZhNzU0NmVjNWJmMjRkMWQ3YzBhYWIwNzQ0Nzg3MjhjNWY0MDdlYTNhMjE1MTc2ZTZmNjQ5YzA2MTIwMDgyZTFlNjI5MzQyOTQzMDg2Y2M4NDUyMjM4ZWEzMDQ3NDVlN2UiLCJoYXNoX21ldGEiOiI3NmQ3ZjhlMmYwZjg0ZTMyM2IxOGQ0MDE2MWIyYzM2OGNlYmJjYTQwM2E0MDBmZjA5NjFlNWIzZDliNTNhNjI2Iiwic2Vxbm8iOjExODgxNDR9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibGVnb3N0YXguZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjQifSwiY3RpbWUiOjE0OTgxNjUyMTEsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiYTYyOWIxOThhNzUwMDY1ZWQzMzExY2JhNjgwNzYzNzUwZjRhOWYxYTY3ZmIyMjIyZDhmZjI4YjAxMTg5MTA1YSIsInNlcW5vIjo0LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQAjBI+1IaGlYLiinXh4lCI1NsCGoILqYI6SL4igV6y62VuBSQErrdXbnMvhcwffBZlhvN8K+BOaBmRG3UWBYiwCoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBXWbiwCQN0YS36GkZnL2GWd38d1clZciuxurxXMn6uaaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/legostax
+
+==================================================================
