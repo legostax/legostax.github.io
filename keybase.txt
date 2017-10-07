@@ -6,46 +6,46 @@ I hereby claim:
 
   * I am an admin of https://legostax.github.io
   * I am legostax (https://keybase.io/legostax) on keybase.
-  * I have a public key ASCSPo9y_k2dXo55_dJ41iF8p4NWedbXKPGBa5Q346HGCwo
+  * I have a public key ASDgUdXX48NglF--5MeiOpuSfNmi66VLpImRrUZhGPB_9wo
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "0120923e8f72fe4d9d5e8e79fdd278d6217ca7835679d6d728f1816b9437e3a1c60b0a",
-            "host": "keybase.io",
-            "kid": "0120923e8f72fe4d9d5e8e79fdd278d6217ca7835679d6d728f1816b9437e3a1c60b0a",
-            "uid": "593b28358fa82fa506bfa64a4b88e219",
-            "username": "legostax"
-        },
-        "merkle_root": {
-            "ctime": 1498167025,
-            "hash": "6163533993af4ac99029297c0a2e32017f0dc47d7b71ed6affea109ac4be879c5578fbef0f7321ba0cad1f020a55665221669f9b79610f07256acf6d4d12603a",
-            "hash_meta": "9e564350ce6116d24e4845ffcfecbbdba1f70d90d8eadc4a6343cb008d5e8cd1",
-            "seqno": 1188216
-        },
-        "service": {
-            "hostname": "legostax.github.io",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "0120923e8f72fe4d9d5e8e79fdd278d6217ca7835679d6d728f1816b9437e3a1c60b0a",
+      "host": "keybase.io",
+      "kid": "0120e051d5d7e3c360945fbee4c7a23a9b927cd9a2eba54ba48991ad466118f07ff70a",
+      "uid": "593b28358fa82fa506bfa64a4b88e219",
+      "username": "legostax"
     },
-    "client": {
-        "name": "keybase.io go client",
-        "version": "1.0.24"
+    "merkle_root": {
+      "ctime": 1507395790,
+      "hash": "b5aea9df009019bd1c726446410d9d1573e7706d1c735e6181f86196f3e12e41c638b463d35b5d1393ace49e2239f8e038254418aa2be5f1de8f180a842b772a",
+      "hash_meta": "a110380f4d31230d9f68f40d8f2b19c86c5a3d51e2d82090cdf7ab68becaba88",
+      "seqno": 1535124
     },
-    "ctime": 1498167036,
-    "expire_in": 504576000,
-    "prev": "b13963219f34c801b3f5c0aa14a2b4f23a98edea91226acacc4489c630d368fa",
-    "seqno": 9,
-    "tag": "signature"
+    "service": {
+      "hostname": "legostax.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.34"
+  },
+  "ctime": 1507395827,
+  "expire_in": 504576000,
+  "prev": "d65e36a5407b2f57ab85a977cca9ddeb9f3ad70c8db0ce4d85878f7d1f6d8b82",
+  "seqno": 23,
+  "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgkj6Pcv5NnV6Oef3SeNYhfKeDVnnW1yjxgWuUN+OhxgsKp3BheWxvYWTFA0p7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOTIzZThmNzJmZTRkOWQ1ZThlNzlmZGQyNzhkNjIxN2NhNzgzNTY3OWQ2ZDcyOGYxODE2Yjk0MzdlM2ExYzYwYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOTIzZThmNzJmZTRkOWQ1ZThlNzlmZGQyNzhkNjIxN2NhNzgzNTY3OWQ2ZDcyOGYxODE2Yjk0MzdlM2ExYzYwYjBhIiwidWlkIjoiNTkzYjI4MzU4ZmE4MmZhNTA2YmZhNjRhNGI4OGUyMTkiLCJ1c2VybmFtZSI6ImxlZ29zdGF4In0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDk4MTY3MDI1LCJoYXNoIjoiNjE2MzUzMzk5M2FmNGFjOTkwMjkyOTdjMGEyZTMyMDE3ZjBkYzQ3ZDdiNzFlZDZhZmZlYTEwOWFjNGJlODc5YzU1NzhmYmVmMGY3MzIxYmEwY2FkMWYwMjBhNTU2NjUyMjE2NjlmOWI3OTYxMGYwNzI1NmFjZjZkNGQxMjYwM2EiLCJoYXNoX21ldGEiOiI5ZTU2NDM1MGNlNjExNmQyNGU0ODQ1ZmZjZmVjYmJkYmExZjcwZDkwZDhlYWRjNGE2MzQzY2IwMDhkNWU4Y2QxIiwic2Vxbm8iOjExODgyMTZ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibGVnb3N0YXguZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjQifSwiY3RpbWUiOjE0OTgxNjcwMzYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiYjEzOTYzMjE5ZjM0YzgwMWIzZjVjMGFhMTRhMmI0ZjIzYTk4ZWRlYTkxMjI2YWNhY2M0NDg5YzYzMGQzNjhmYSIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQJYy8Xxenmo0uFw4lKxwlR98ZNVmv2eMf+C2zI5Rk3V5517/Wgt6qfWKgOykeDpG1O+uieA9j0+GY11GPKdW4wSoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDsMDTBM6dnP9hHEMSgB5I2B7RFPvvU+3EIKgjwkEsYwqN0YWfNAgKndmVyc2lvbgE=
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg4FHV1+PDYJRfvuTHojqbknzZouulS6SJka1GYRjwf/cKp3BheWxvYWTFA0t7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOTIzZThmNzJmZTRkOWQ1ZThlNzlmZGQyNzhkNjIxN2NhNzgzNTY3OWQ2ZDcyOGYxODE2Yjk0MzdlM2ExYzYwYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTA1MWQ1ZDdlM2MzNjA5NDVmYmVlNGM3YTIzYTliOTI3Y2Q5YTJlYmE1NGJhNDg5OTFhZDQ2NjExOGYwN2ZmNzBhIiwidWlkIjoiNTkzYjI4MzU4ZmE4MmZhNTA2YmZhNjRhNGI4OGUyMTkiLCJ1c2VybmFtZSI6ImxlZ29zdGF4In0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA3Mzk1NzkwLCJoYXNoIjoiYjVhZWE5ZGYwMDkwMTliZDFjNzI2NDQ2NDEwZDlkMTU3M2U3NzA2ZDFjNzM1ZTYxODFmODYxOTZmM2UxMmU0MWM2MzhiNDYzZDM1YjVkMTM5M2FjZTQ5ZTIyMzlmOGUwMzgyNTQ0MThhYTJiZTVmMWRlOGYxODBhODQyYjc3MmEiLCJoYXNoX21ldGEiOiJhMTEwMzgwZjRkMzEyMzBkOWY2OGY0MGQ4ZjJiMTljODZjNWEzZDUxZTJkODIwOTBjZGY3YWI2OGJlY2FiYTg4Iiwic2Vxbm8iOjE1MzUxMjR9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibGVnb3N0YXguZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzQifSwiY3RpbWUiOjE1MDczOTU4MjcsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiZDY1ZTM2YTU0MDdiMmY1N2FiODVhOTc3Y2NhOWRkZWI5ZjNhZDcwYzhkYjBjZTRkODU4NzhmN2QxZjZkOGI4MiIsInNlcW5vIjoyMywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEC8KUCN2GCyLHbsOQHcWq+4n9JTJzQGzDHGc9nbpDY/3wGoCc6/HM04BPTK1fjAmQQo1a64fD2c/UzdVsurLYgLqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgidrbCipbb/u/NVIi/1UCNslk+Q+L92aD045N0FPnbySjdGFnzQICp3ZlcnNpb24B
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
