@@ -1,9 +1,9 @@
 function setParams(){
-	title = "Obstipation (will resume Sight and Sound in summer 2017)";
-	script = 100;
-	set_building = 100;
+	title = "Untitled Western Duel";
+	script = 50;
+	set_building = 10;
 	animation = 0;
 	compositing = 0;
 	effects = 0;
-	date = "June 22, 2017";
+	date = "December 27, 2017";
 }
