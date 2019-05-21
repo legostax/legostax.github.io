@@ -1,5 +1,5 @@
 var uploadID = "UUTksBrSxoiEgL_iTLqkvHig";
-var APIkey = "AIzaSyA8Nlwzno4COtvrlO1wqs5c9KtFoDRI1q8";
+var APIkey = "To whoever stole this: screw you :)";
 var id;
 function dummy(j){
 	id = j.items[0].contentDetails.videoId;
