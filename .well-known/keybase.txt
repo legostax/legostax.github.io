@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/sshsharebot
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://legostax.github.io
+  * I am sshsharebot (https://keybase.io/sshsharebot) on keybase.
+  * I have a public key ASBn8n9sNRKwslRf_03I-cnwpqHwCpYL71KT7Q9hlDwzgwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012067f27f6c3512b0b2545fff4dc8f9c9f0a6a1f00a960bef5293ed0f61943c33830a",
+      "host": "keybase.io",
+      "kid": "012067f27f6c3512b0b2545fff4dc8f9c9f0a6a1f00a960bef5293ed0f61943c33830a",
+      "uid": "0031560fdc288574b15a7dcc449bc719",
+      "username": "sshsharebot"
+    },
+    "merkle_root": {
+      "ctime": 1583164012,
+      "hash": "3c3127823b5bddad7dec17a10c6f438966c0bf60d31c2939451a9c9fc12f9f005ccb247e6367edcef964a3924b783756e28a61a74fca980f968e4cb7c6462b0e",
+      "hash_meta": "36b02f3e7276118884ece7bc749cb26741ddc406b99915e9ceed2a204841aa22",
+      "seqno": 14900632
+    },
+    "service": {
+      "entropy": "AJY5W2B0BxLZdDVjbKUViUpz",
+      "hostname": "legostax.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.2.1"
+  },
+  "ctime": 1583164025,
+  "expire_in": 504576000,
+  "prev": "a258f1edc292fda572e293a5aa0da7806a2d8ed6643151996d7d07d7d1f49b79",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZ/J/bDUSsLJUX/9NyPnJ8Kah8AqWC+9Sk+0PYZQ8M4MKp3BheWxvYWTESpcCB8Qgoljx7cKS/aVy4pOlqg2ngGotjtZkMVGZbX0H19H0m3nEIK3IskvFoJQLxQz/6gl/qL9qENs6LkmTzpK7zircl5neAgHCo3NpZ8RARhMrJ0D2qiDSEampdbs8Z7ckr84atCftSpQ58CK4B05A05h6IinSbc6pmRCiY7TRUsDF4M3eJY6RJls7r66gAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMLUsN6uJQmA2Z9b6ecqHC0laOuq5dj6F7blgULsetYbo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sshsharebot
+
+==================================================================
